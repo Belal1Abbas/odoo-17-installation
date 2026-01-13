@@ -1,4 +1,4 @@
- ##                                                                                          📖 Overview
+ ##<h1 align="center">📖 Overview</h1>
 This repository provides a **complete local installation setup for Odoo 17** on Ubuntu 24.04 LTS
 
 It includes everything you need to run Odoo locally with a production-like environment:
