@@ -17,33 +17,33 @@ This setup is ideal for:
 
 ### 🛠 Detailed Steps
 
-1. Project Structure Initialization
+🏗️ Project Structure Initialization
 Create the base directory and essential subfolders to keep the installation organized:
 config/: For odoo.conf and Nginx configurations.
 logs/: For Odoo and Nginx log files.
 systemd/: To store the service unit file.
 
-2. Prerequisites & Dependencies
+⚙️ Prerequisites & Dependencies
 Install the required system packages:
 Python 3.12, pip, and virtualenv.
 Development libraries for Odoo.
 NodeJS & npm (for RTL support).
 wkhtmltopdf (for PDF report generation).
 
-3. PostgreSQL Database Setup
+🐘 PostgreSQL Database Setup
 Install PostgreSQL server.
 Create a dedicated database user matching your system user.
 Configure Peer Authentication to allow seamless local connections.
 
-4. Odoo 17 Source Code
+📂 Odoo 17 Source Code
 Clone the official Odoo 17 branch directly from GitHub into your project folder.
 
-5. Python Virtual Environment (venv)
+🐍 Python Virtual Environment (venv)
 Create a clean isolation layer using python3 -m venv venv.
 Install all requirements listed in requirements.txt.
 Note: Ensure setuptools is updated to avoid pkg_resources warnings.
 
-6. Odoo Configuration
+📝 Odoo Configuration
 Create odoo.conf within the config/ directory. Key parameters:
 db_user & db_password.
 addons_path: Pointing to your Odoo and custom addons.
@@ -51,13 +51,13 @@ logfile: Path to your logs/ folder.
 
 xmlrpc_port: Defaulting to 8069.
 
-7. Systemd Service Integration
+🔧 Systemd Service Integration
 Create a systemd unit file to manage the Odoo process. This ensures:
 Automatic start on system boot.
 Automatic restart on failure.
 Easy management via systemctl.
 
-8. Nginx Reverse Proxy
+🌐 Nginx Reverse Proxy
 Configure Nginx to handle incoming traffic on port 80/443:
 Forward requests to Odoo (8069).
 Handle Longpolling on port 8072 for real-time chat/updates.
