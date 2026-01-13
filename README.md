@@ -13,7 +13,7 @@ This setup is ideal for:
 - Testing Odoo features before deploying to production  
 - Learning Odoo 17 installation and configuration end-to-end
 
-<img width="1408" height="435" alt="Gemini_Generated_Image_nwzemcnwzemcnwze" src="https://github.com/user-attachments/assets/8024a794-962d-4fc6-bd46-53b8cf796dde" />
+<img width="1792" height="576" alt="Gemini_Generated_Image_cs3xgrcs3xgrcs3x" src="https://github.com/user-attachments/assets/1a9f71b9-0e9a-494b-83e3-2bbc108150ed" />
 
 
 
