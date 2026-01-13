@@ -17,19 +17,19 @@ This setup is ideal for:
 
 
 
-###  Key Capabilities
-
+## Key Capabilities
 
 This Odoo 17 local installation setup provides the following capabilities:
 
-- **Complete Odoo 17 Source Setup**: Includes all official Odoo 17 modules and core files.
-- **Python Virtual Environment**: Isolated environment for Python dependencies to avoid conflicts.
-- **PostgreSQL Database Integration**: Pre-configured for easy local development.
-- **Systemd Service**: Automatic startup and background management of Odoo.
-- **Nginx Reverse Proxy**: Secure, production-like web access with optional SSL.
-- **Configurable Addons Path**: Easy to extend with custom modules.
-- **Logs Management**: Centralized logs for Odoo and Nginx for debugging and monitoring.
-- **Screenshots & Documentation**: Clear visual guidance for setup and usage.
-- **Ready for GitHub Deployment**: Clean project structure with `.gitignore` to avoid committing virtual environments or logs.
+- 🗂️ **Complete Odoo 17 Source Setup**: Includes all official Odoo 17 modules and core files.
+- 🐍 **Python Virtual Environment**: Isolated environment for Python dependencies to avoid conflicts.
+- 🐘 **PostgreSQL Database Integration**: Pre-configured for easy local development.
+- ⚙️ **Systemd Service**: Automatic startup and background management of Odoo.
+- 🌐 **Nginx Reverse Proxy**: Secure, production-like web access with optional SSL.
+- 🧩 **Configurable Addons Path**: Easy to extend with custom modules.
+- 📄 **Logs Management**: Centralized logs for Odoo and Nginx for debugging and monitoring.
+- 📸 **Screenshots & Documentation**: Clear visual guidance for setup and usage.
+- 🚀 **Ready for GitHub Deployment**: Clean project structure with `.gitignore` to avoid committing virtual environments or logs.
+
 
 
