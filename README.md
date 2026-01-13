@@ -3,8 +3,9 @@ This project demonstrates a full, practical implementation of an end-to-end DevO
 
 The pipeline ensures a production-ready, scalable, and self-healing infrastructure similar to what is used in enterprise environments.
 
+<img width="1408" height="435" alt="Gemini_Generated_Image_nwzemcnwzemcnwze" src="https://github.com/user-attachments/assets/38fc35a5-c211-4b04-a280-f14328a936d5" />
 
-![Uploading Gemini_Generated_Image_nwzemcnwzemcnwze.png…]()
+
 
 ## 🔥 Key Capabilities
 ### 🔗 GitHub – Source Code
