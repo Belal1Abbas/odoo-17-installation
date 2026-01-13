@@ -1,0 +1,24 @@
+[Unit]
+Description=Odoo 17 (Local Project Setup)
+After=network.target postgresql.service
+Requires=postgresql.service
+
+[Service]
+Type=simple
+User=belal
+Group=belal
+WorkingDirectory=/home/belal/odoo-17-installation
+
+ExecStart=/home/belal/odoo-17-installation/venv/bin/python3 \
+/home/belal/odoo-17-installation/odoo/odoo-bin \
+-c /home/belal/odoo-17-installation/config/odoo.conf
+
+Restart=always
+RestartSec=5
+
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
+
