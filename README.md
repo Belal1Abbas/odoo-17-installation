@@ -1,11 +1,13 @@
 ## 📖 Overview
 This repository provides a **complete local installation setup for Odoo 17** on Ubuntu 24.04 LTS
+
 It includes everything you need to run Odoo locally with a production-like environment:
 - **Python virtual environment** setup for dependency management
 - **PostgreSQL database configuration** for Odoo
 - **Systemd service** to start Odoo automatically on boot
 - **Nginx reverse proxy** for secure and efficient web access
 - **Project structure and configuration files** for easy customization
+
 This setup is ideal for:
 - Developers who want to work on Odoo modules locally  
 - Testing Odoo features before deploying to production  
